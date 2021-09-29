@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/aiden/static/css/main.a617e044.chunk.css",
+    "main.js": "/aiden/static/js/main.0fcfbfd6.chunk.js",
+    "main.js.map": "/aiden/static/js/main.0fcfbfd6.chunk.js.map",
+    "runtime-main.js": "/aiden/static/js/runtime-main.51b5c08d.js",
+    "runtime-main.js.map": "/aiden/static/js/runtime-main.51b5c08d.js.map",
+    "static/js/2.7471cfac.chunk.js": "/aiden/static/js/2.7471cfac.chunk.js",
+    "static/js/2.7471cfac.chunk.js.map": "/aiden/static/js/2.7471cfac.chunk.js.map",
+    "static/js/3.3652cff7.chunk.js": "/aiden/static/js/3.3652cff7.chunk.js",
+    "static/js/3.3652cff7.chunk.js.map": "/aiden/static/js/3.3652cff7.chunk.js.map",
+    "index.html": "/aiden/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/aiden/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.7471cfac.chunk.js.LICENSE.txt": "/aiden/static/js/2.7471cfac.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/aiden/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51b5c08d.js",
+    "static/js/2.7471cfac.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.0fcfbfd6.chunk.js"
+  ]
+}
