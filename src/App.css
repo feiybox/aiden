@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.name_content {
+  font-weight: bold;
+  color: orange;
+  font-size: calc(16px + 2vmin);
+}
+
+.App-popover {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(6px + 2vmin);
+  color: orange;
+}
+
+.App-bottom {
+  font-size: calc(6px + 1vmin);
+}
+
+.question-icon {
+  transition: all 0.4s;
+}
+
+.question-icon:hover{
+  transform: scale(1.5);
+  color: #1990ff;
+}
