@@ -3,7 +3,7 @@ import './App.css';
 import 'antd/dist/antd.css';
 import {Button, Popover} from 'antd';
 import names from "./constant";
-import {QuestionCircleFilled, GithubOutlined} from '@ant-design/icons';
+import {QuestionCircleTwoTone, GithubOutlined, HomeOutlined} from '@ant-design/icons';
 
 function App() {
     return (
@@ -13,7 +13,7 @@ function App() {
                 <div>
                     <div id={"desc"}>选择一个你满意的名称 <span/>
                         <Popover placement="left" color={"#282c34"} content={content}>
-                            <QuestionCircleFilled id={"question-icon"} className={"question-icon"}/>
+                            <QuestionCircleTwoTone twoToneColor="orange" className={"question-icon"}/>
                         </Popover>
                     </div>
                     <p/>
@@ -29,7 +29,10 @@ function App() {
                     <br/>
                     <br/>
                     <Button type="link"
-                            href="https://github.com/feiybox/aiden/issues/new"><GithubOutlined/> 有好的名称或者建议，推荐给我吧</Button>
+                            href="https://github.com/feiybox/aiden/issues/new"><GithubOutlined/>有好的名称或者建议，推荐给我吧</Button>
+                    <br/>
+                    <Button type="link"
+                            href="https://feiybox.com"><HomeOutlined/>来我的主页 feiybox.com 一起交流吧</Button>
                 </div>
             </header>
         </div>
