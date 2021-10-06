@@ -44,13 +44,32 @@ function App() {
 function choose() {
     let t = document.getElementById("name").innerText
     let ns = names.copyWithin(0, 0).filter((value) => {
-        return value !== t
+        if (value === t) {
+            return false;
+        }
+        return !nameCacheList.includes(value);
     })
 
+    if (ns.length === 0) {
+        ns = names;
+    }
     let index = parseInt(Math.random() * ns.length)
+    storeNameCache(ns[index]);
+
     document.getElementById("name").innerText = ns[index]
     document.getElementById("choose").innerText = "重新选择"
     document.getElementById("ph").innerText = "满意么？用它给你的项目 / 产品 / 平台命名吧！"
+}
+
+let nameCacheList = [];
+
+const NameCacheLen = 100;
+
+function storeNameCache(chooseName) {
+    nameCacheList.push(chooseName);
+    if (nameCacheList.length > NameCacheLen) {
+        nameCacheList.pop();
+    }
 }
 
 const content = (
