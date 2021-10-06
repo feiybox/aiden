@@ -10,26 +10,28 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo"/>
+                <div>Aiden</div>
+                <br/>
                 <div>
                     <div id={"desc"}>选择一个你满意的名称 <span/>
                         <Popover placement="left" color={"#282c34"} content={content}>
                             <QuestionCircleTwoTone twoToneColor="orange" className={"question-icon"}/>
                         </Popover>
                     </div>
-                    <p/>
+                    <br/>
                     <div id={"name"} className={"name_content"}>...</div>
-                    <p/>
+                    <br/>
                     <Button id={"choose"} type="primary" size="large" shape="round"
                             onClick={() => choose()}>选择一个</Button>
-                    <p/>
+                    <br/>
+                    <br/>
                     <div id={"ph"}></div>
                 </div>
                 <div className={"App-bottom"}>
                     <br/>
                     <br/>
-                    <br/>
                     <Button type="link"
-                            href="https://github.com/feiybox/aiden/issues/new"><GithubOutlined/>有好的名称或者建议，推荐给我吧</Button>
+                            href="https://github.com/feiybox/aiden/issues/new"><GithubOutlined/>有好的名称或建议，推荐给我吧</Button>
                     <br/>
                     <Button type="link"
                             href="https://feiybox.com"><HomeOutlined/>来我的主页 feiybox.com 一起交流吧</Button>
