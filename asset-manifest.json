@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aiden/static/css/main.45bf115f.chunk.css",
+    "main.css": "/aiden/static/css/main.71f90a5e.chunk.css",
     "main.js": "/aiden/static/js/main.5ae4abe4.chunk.js",
     "main.js.map": "/aiden/static/js/main.5ae4abe4.chunk.js.map",
     "runtime-main.js": "/aiden/static/js/runtime-main.b2b1f86c.js",
@@ -12,7 +12,7 @@
     "static/js/3.6bd12050.chunk.js.map": "/aiden/static/js/3.6bd12050.chunk.js.map",
     "index.html": "/aiden/index.html",
     "static/css/2.786ae0dd.chunk.css.map": "/aiden/static/css/2.786ae0dd.chunk.css.map",
-    "static/css/main.45bf115f.chunk.css.map": "/aiden/static/css/main.45bf115f.chunk.css.map",
+    "static/css/main.71f90a5e.chunk.css.map": "/aiden/static/css/main.71f90a5e.chunk.css.map",
     "static/js/2.6480a0c6.chunk.js.LICENSE.txt": "/aiden/static/js/2.6480a0c6.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/aiden/static/media/logo.6ce24c58.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.b2b1f86c.js",
     "static/css/2.786ae0dd.chunk.css",
     "static/js/2.6480a0c6.chunk.js",
-    "static/css/main.45bf115f.chunk.css",
+    "static/css/main.71f90a5e.chunk.css",
     "static/js/main.5ae4abe4.chunk.js"
   ]
 }
